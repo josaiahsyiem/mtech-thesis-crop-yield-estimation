@@ -1,0 +1,166 @@
+year,column,dtype,n,null,blank,dash,na_text,minus99,zero,n_unique,usable_pct,numeric_share,summary
+2022,fid,float64,55,0,0,0,0,0,0,55,100.0,1.0,min 6 | median 75 | max 228
+2022,UID,str,55,0,0,0,0,0,0,55,100.0,0.0,2202-2397-1447 (1); 1495-1526-580 (1); 1502-1543-641 (1); 1507-1547-661 (1); 300-358-290 (1)
+2022,Farm,str,55,0,0,0,0,0,0,52,100.0,0.0,(personal: values hidden)
+2022,Farmer,str,55,0,0,0,0,0,0,51,100.0,0.0,(personal: values hidden)
+2022,Phone,str,55,0,0,0,0,0,0,51,100.0,1.0,(personal: values hidden)
+2022,Survey_No,str,55,33,0,0,0,0,0,21,40.0,0.95,(personal: values hidden)
+2022,State,str,55,0,0,0,0,0,0,1,100.0,0.0,Maharashtra (55)
+2022,District,str,55,0,0,0,0,0,0,1,100.0,0.0,Latur (55)
+2022,Taluka,str,55,0,0,0,0,0,0,4,100.0,0.0,Latur (36); Ausa (17); Chakur (1); Nilanga (1)
+2022,Village,str,55,0,0,0,0,0,0,14,100.0,0.0,Bhada (16); Babhalgaon (10); Khandapur (8); Chata (4); Pakharsangvi (4)
+2022,SColor,str,55,0,0,22,7,0,0,6,47.3,0.0,- (22); Deep Black (15); Black (8); N/A (7); Brown (2)
+2022,SStructure,str,55,0,0,22,7,0,0,5,47.3,0.0,- (22); Very Fine (19); N/A (7); Fine (6); Medium (1)
+2022,STexture,str,55,0,0,22,7,0,0,6,47.3,0.0,- (22); Black Cotton Soil / Clay (18); N/A (7); Clay Loam (4); Sand (2)
+2022,SDepth,str,55,0,0,22,7,0,0,4,47.3,0.0,- (22); Deep (15); Medium (11); N/A (7)
+2022,Carbon,float64,55,0,0,0,0,0,7,22,100.0,1.0,min 0 | median 0.43 | max 1.1
+2022,pH,float64,55,0,0,0,0,0,7,38,100.0,1.0,min 0 | median 7.43 | max 8.21
+2022,EC,float64,55,0,0,0,0,0,12,26,100.0,1.0,min 0 | median 0.29 | max 1.18
+2022,Nitrogen,float64,55,0,0,0,0,0,7,39,100.0,1.0,min 0 | median 242 | max 460
+2022,Phosphorus,float64,55,0,0,0,0,0,7,36,100.0,1.0,min 0 | median 21.9 | max 43.5
+2022,Potassium,float64,55,0,0,0,0,0,7,36,100.0,1.0,min 0 | median 239 | max 1.04e+03
+2022,Crop_Name,str,55,33,0,0,0,0,0,1,40.0,0.0,Soyabean (22)
+2022,Irrigation,str,55,0,0,0,0,0,0,2,100.0,0.0,Rainfed (33); Flow/Protective (22)
+2022,A_Variety,str,55,17,0,0,0,0,0,17,69.1,0.74,726 (12); 335 (7); 753 (2); 71 (2); KDS-726 (2)
+2022,C_Yeild,str,55,0,0,0,0,0,0,17,100.0,1.0,min 2 | median 9 | max 15
+2022,HA_Date,str,55,0,0,0,0,0,0,29,100.0,0.0,10/28/2022 12:00:00 AM (8); 10/22/2022 12:00:00 AM (4); 11/2/2022 12:00:00 AM (4); 10/30/2022 12:00:00 AM (3); 11/1/2022 12:00:00 AM (3)
+2022,ASowing,str,55,0,0,0,17,0,0,19,69.1,0.0,N/A (17); 30/06/2022 (5); 20/06/2022 (5); 01/07/2022 (4); 22/06/2022 (4)
+2022,Area_acres,float64,55,33,0,0,0,0,0,22,40.0,1.0,min 1.57 | median 2.65 | max 9.11
+2022,Survey No,str,55,22,0,0,0,0,0,33,60.0,0.67,(personal: values hidden)
+2022,Copper,str,55,22,0,0,18,0,15,2,27.3,0.45,N/A (18); 0.00 (15)
+2022,Iron,str,55,22,0,0,18,0,15,2,27.3,0.45,N/A (18); 0.00 (15)
+2022,Manganese,str,55,22,0,0,18,0,15,2,27.3,0.45,N/A (18); 0.00 (15)
+2022,Zinc,str,55,22,0,0,18,0,15,2,27.3,0.45,N/A (18); 0.00 (15)
+2022,Water pH,str,55,22,0,0,33,0,0,1,0.0,0.0,N/A (33)
+2022,Water EC,str,55,22,0,0,30,0,3,2,5.5,0.09,N/A (30); 0.00 (3)
+2022,Na Ratio,str,55,22,0,0,30,0,3,2,5.5,0.09,N/A (30); 0.00 (3)
+2022,Boron,str,55,22,0,0,30,0,3,2,5.5,0.09,N/A (30); 0.00 (3)
+2022,Crop Name,str,55,22,0,0,0,0,0,1,60.0,0.0,Soyabean (33)
+2022,PSowing,str,55,22,0,0,0,0,0,3,60.0,0.0,Till 30 June (21); Till 7 July (9); Till 20 June (3)
+2022,PArea,float64,55,22,0,0,0,0,0,23,60.0,1.0,min 0.2 | median 3.5 | max 16
+2022,Expected,float64,55,22,0,0,0,0,0,8,60.0,1.0,min 7 | median 10 | max 14
+2022,AArea,str,55,22,0,0,12,0,0,18,38.2,0.64,N/A (12); 6.00 (3); 8.00 (2); 4.00 (2); 16.00 (1)
+2022,Agent,str,55,22,0,0,0,0,0,7,60.0,0.0,(personal: values hidden)
+2022,AgentPhone,str,55,22,0,0,0,0,0,7,60.0,1.0,(personal: values hidden)
+2022,PolyArea,float64,55,22,0,0,0,0,0,33,60.0,1.0,min 1.49e+03 | median 1.49e+04 | max 7.61e+04
+2022,layer,str,55,0,0,0,0,0,0,2,100.0,0.4,MH-Latur-20260218051920 (33); 2022 (22)
+2022,path,str,55,0,0,0,0,0,0,2,100.0,0.0,F:/Latur Data/Latur 2022 -2025 Polygons/2022 Polygons/MH-Latur-20260218051920.dbf|layername=MH-Latur-20260218051920 (33); F:/Latur Data/After 1st meet data/2022GT/2022.dbf|layername=2022 (22)
+2023,fid,float64,60,0,0,0,0,0,0,60,100.0,1.0,min 3 | median 94.5 | max 319
+2023,UID,str,60,0,0,0,0,0,0,60,100.0,0.0,2983-3228-2106 (1); 3263-3543-2149 (1); 3208-3465-3338 (1); 4429-4733-3293 (1); 4478-4787-3336 (1)
+2023,Farm,str,60,0,0,0,0,0,0,57,100.0,0.0,(personal: values hidden)
+2023,Farmer,str,60,0,0,0,0,0,0,59,100.0,0.0,(personal: values hidden)
+2023,Phone,str,60,0,0,0,0,0,0,59,100.0,1.0,(personal: values hidden)
+2023,Survey_No,str,60,48,0,0,0,0,0,12,20.0,0.92,(personal: values hidden)
+2023,State,str,60,0,0,0,0,0,0,1,100.0,0.0,Maharashtra (60)
+2023,District,str,60,0,0,0,0,0,0,1,100.0,0.0,Latur (60)
+2023,Taluka,str,60,0,0,0,0,0,0,5,100.0,0.0,Ausa (26); Latur (25); Shirur-Anantpal (5); Renapur (3); Chakur (1)
+2023,Village,str,60,0,0,0,0,0,0,25,100.0,0.0,Bhada (14); Taka (5); Wadji (4); Mahamdapur (4); Halki (4)
+2023,SColor,str,60,0,0,0,0,0,0,3,100.0,0.0,Black (50); Brown (7); Deep Black (3)
+2023,SStructure,str,60,0,0,0,0,0,0,4,100.0,0.0,Very Fine (20); Medium (18); Fine (18); Coarse (4)
+2023,STexture,str,60,0,0,0,0,0,0,5,100.0,0.0,Black Cotton Soil / Clay (17); Loam (14); Slit (10); Clay Loam (10); Sand (9)
+2023,SDepth,str,60,0,0,0,0,0,0,3,100.0,0.0,Medium (49); Deep (10); Shallow (1)
+2023,Carbon,float64,60,0,0,0,0,0,0,45,100.0,1.0,min 0.15 | median 0.49 | max 1.07
+2023,pH,float64,60,0,0,0,0,0,0,16,100.0,1.0,min 6.8 | median 7.65 | max 8.4
+2023,EC,float64,60,0,0,0,0,0,0,37,100.0,1.0,min 0.22 | median 0.495 | max 0.85
+2023,Nitrogen,float64,60,0,0,0,0,0,0,20,100.0,1.0,min 62.7 | median 157 | max 502
+2023,Phosphorus,float64,60,0,0,0,0,0,0,46,100.0,1.0,min 9.65 | median 21.9 | max 34
+2023,Potassium,float64,60,0,0,0,0,0,0,37,100.0,1.0,min 163 | median 502 | max 982
+2023,Crop_Name,str,60,48,0,0,0,0,0,1,20.0,0.0,Soyabean (12)
+2023,Irrigation,str,60,0,0,0,0,0,0,3,100.0,0.0,Rainfed (43); Flow/Protective (16); Drip (1)
+2023,A_Variety,str,60,0,0,0,0,0,0,30,100.0,0.68,753 (9); 335 (7); 612 (7); 228 (7); 726 (3)
+2023,C_Yeild,str,60,0,0,0,0,0,0,21,100.0,1.0,min 3 | median 8 | max 720
+2023,HA_Date,str,60,0,0,0,0,0,0,26,100.0,0.0,10/10/2023 12:00:00 AM (8); 10/12/2023 12:00:00 AM (7); 10/20/2023 12:00:00 AM (6); 10/18/2023 12:00:00 AM (4); 10/27/2023 12:00:00 AM (3)
+2023,ASowing,str,60,0,0,0,0,0,0,20,100.0,0.0,07/07/2023 (9); 05/07/2023 (9); 04/07/2023 (8); 06/07/2023 (8); 03/07/2023 (6)
+2023,Area_acres,float64,60,48,0,0,0,0,0,12,20.0,1.0,min 0.108 | median 3.11 | max 5.48
+2023,Survey No,str,60,12,0,0,0,0,0,45,80.0,0.75,(personal: values hidden)
+2023,Copper,str,60,12,0,0,48,0,0,1,0.0,0.0,N/A (48)
+2023,Iron,str,60,12,0,0,48,0,0,1,0.0,0.0,N/A (48)
+2023,Manganese,str,60,12,0,0,48,0,0,1,0.0,0.0,N/A (48)
+2023,Zinc,str,60,12,0,0,48,0,0,1,0.0,0.0,N/A (48)
+2023,Water pH,str,60,12,0,0,48,0,0,1,0.0,0.0,N/A (48)
+2023,Water EC,str,60,12,0,0,48,0,0,1,0.0,0.0,N/A (48)
+2023,Na Ratio,str,60,12,0,0,48,0,0,1,0.0,0.0,N/A (48)
+2023,Boron,str,60,12,0,0,48,0,0,1,0.0,0.0,N/A (48)
+2023,Crop Name,str,60,12,0,0,0,0,0,1,80.0,0.0,Soyabean (48)
+2023,PSowing,str,60,12,0,0,0,0,0,4,80.0,0.0,15th June to 30th June (24); Till 7 July (12); Till 30 June (11); Till 20 June (1)
+2023,PArea,float64,60,12,0,0,0,0,0,20,80.0,1.0,min 0.4 | median 2.65 | max 5
+2023,Expected,float64,60,12,0,0,0,0,0,1,80.0,1.0,min 12 | median 12 | max 12
+2023,AArea,str,60,12,0,0,0,0,0,17,80.0,1.0,min 1 | median 3 | max 5
+2023,Agent,str,60,12,0,0,0,0,0,6,80.0,0.0,(personal: values hidden)
+2023,AgentPhone,str,60,12,0,0,0,0,0,6,80.0,1.0,(personal: values hidden)
+2023,PolyArea,float64,60,12,0,0,0,0,0,48,80.0,1.0,min 1.83e+03 | median 1.19e+04 | max 2.5e+04
+2023,layer,str,60,0,0,0,0,0,0,2,100.0,0.0,MH-Latur-20260218051840 (48); 2023GT (12)
+2023,path,str,60,0,0,0,0,0,0,2,100.0,0.0,F:/Latur Data/Latur 2022 -2025 Polygons/2023 Polygons/MH-Latur-20260218051840.dbf|layername=MH-Latur-20260218051840 (48); F:/Latur Data/After 1st meet data/2023GT/2023GT.dbf|layername=2023GT (12)
+2024,fid,float64,323,0,0,0,0,0,0,323,100.0,1.0,min 1 | median 207 | max 462
+2024,UID,str,323,0,0,0,0,0,0,323,100.0,0.0,6830-7688-5916 (1); 5835-6408-4628 (1); 5836-6409-4629 (1); 5837-6410-4630 (1); 5838-6412-4632 (1)
+2024,Farm,str,323,0,0,0,0,0,0,297,100.0,0.0,(personal: values hidden)
+2024,Farmer,str,323,0,0,0,0,0,0,291,100.0,0.0,(personal: values hidden)
+2024,Phone,str,323,0,0,0,0,0,0,292,100.0,1.0,(personal: values hidden)
+2024,Survey_No,str,323,300,0,0,0,0,0,18,7.1,1.0,(personal: values hidden)
+2024,State,str,323,0,0,0,0,0,0,1,100.0,0.0,Maharashtra (323)
+2024,District,str,323,0,0,0,0,0,0,1,100.0,0.0,Latur (323)
+2024,Taluka,str,323,0,0,0,0,0,0,7,100.0,0.0,Latur (105); Ausa (96); Nilanga (46); Chakur (31); Renapur (27)
+2024,Village,str,323,0,0,0,0,0,0,59,100.0,0.0,Bhada (28); Bheta (25); Sugaon (19); Gondegaon (18); Harwadi (18)
+2024,SColor,str,323,0,0,0,204,0,0,3,36.8,0.0,N/A (204); Deep Black (116); Black (3)
+2024,SStructure,str,323,0,0,0,204,0,0,3,36.8,0.0,N/A (204); Very Fine (109); Fine (10)
+2024,STexture,str,323,0,0,0,204,0,0,5,36.8,0.0,N/A (204); Black Cotton Soil / Clay (113); Clay Loam (4); Slit (1); Loam (1)
+2024,SDepth,str,323,0,0,0,204,0,0,3,36.8,0.0,N/A (204); Deep (118); Shallow (1)
+2024,Carbon,float64,323,0,0,0,0,0,204,29,100.0,1.0,min 0 | median 0 | max 0.96
+2024,pH,float64,323,0,0,0,0,0,204,71,100.0,1.0,min 0 | median 0 | max 8.6
+2024,EC,float64,323,0,0,0,0,0,204,38,100.0,1.0,min 0 | median 0 | max 0.72
+2024,Nitrogen,float64,323,0,0,0,0,0,204,27,100.0,1.0,min 0 | median 0 | max 672
+2024,Phosphorus,float64,323,0,0,0,0,0,204,104,100.0,1.0,min 0 | median 0 | max 25
+2024,Potassium,float64,323,0,0,0,0,0,204,56,100.0,1.0,min 0 | median 0 | max 1.48e+03
+2024,Crop_Name,str,323,300,0,0,0,0,0,1,7.1,0.0,Soyabean (23)
+2024,Irrigation,str,323,0,0,0,0,0,0,3,100.0,0.0,Drip (151); Flow/Protective (96); Rainfed (76)
+2024,A_Variety,str,323,17,0,0,0,0,0,30,94.7,0.47,753 (79); kds753 (44); kds 753 (38); 228 (37); KDS753 (23)
+2024,C_Yeild,str,323,0,0,0,0,0,0,53,100.0,1.0,min 3.5 | median 9.5 | max 47
+2024,HA_Date,str,323,0,0,0,0,0,0,78,100.0,0.0,10/10/2024 12:00:00 AM (31); 10/12/2024 12:00:00 AM (18); 10/18/2024 12:00:00 AM (17); 10/17/2024 12:00:00 AM (13); 10/19/2024 12:00:00 AM (12)
+2024,ASowing,str,323,0,0,0,17,0,0,31,94.7,0.0,20/06/2024 (74); 15/06/2024 (33); 18/06/2024 (26); 16/06/2024 (25); 19/06/2024 (23)
+2024,Area_acres,float64,323,300,0,0,0,0,0,23,7.1,1.0,min 0.913 | median 2.4 | max 5.55
+2024,Survey No,str,323,23,0,0,30,0,1,170,83.6,0.76,(personal: values hidden)
+2024,Copper,str,323,23,0,0,300,0,0,1,0.0,0.0,N/A (300)
+2024,Iron,str,323,23,0,0,300,0,0,1,0.0,0.0,N/A (300)
+2024,Manganese,str,323,23,0,0,300,0,0,1,0.0,0.0,N/A (300)
+2024,Zinc,str,323,23,0,0,300,0,0,1,0.0,0.0,N/A (300)
+2024,Water pH,str,323,23,0,0,300,0,0,1,0.0,0.0,N/A (300)
+2024,Water EC,str,323,23,0,0,300,0,0,1,0.0,0.0,N/A (300)
+2024,Na Ratio,str,323,23,0,0,300,0,0,1,0.0,0.0,N/A (300)
+2024,Boron,str,323,23,0,0,300,0,0,1,0.0,0.0,N/A (300)
+2024,Crop Name,str,323,23,0,0,0,0,0,1,92.9,0.0,Soyabean (300)
+2024,PSowing,str,323,23,0,0,0,0,0,2,92.9,0.0,Till 20 June (248); Till 30 June (52)
+2024,PArea,float64,323,23,0,0,0,0,0,37,92.9,1.0,min 0.75 | median 2 | max 5
+2024,Expected,float64,323,23,0,0,0,0,2,2,92.9,1.0,min 0 | median 12 | max 12
+2024,AArea,str,323,23,0,0,16,0,0,28,87.9,0.95,min 1 | median 2 | max 13
+2024,Agent,str,323,23,0,0,0,0,0,8,92.9,0.0,(personal: values hidden)
+2024,AgentPhone,str,323,23,0,0,0,0,0,8,92.9,1.0,(personal: values hidden)
+2024,PolyArea,float64,323,23,0,0,0,0,0,300,92.9,1.0,min 1.11e+03 | median 8.92e+03 | max 2.34e+04
+2024,layer,str,323,0,0,0,0,0,0,2,100.0,0.0,MH-Latur-20260218051738 (300); 2024GT (23)
+2024,path,str,323,0,0,0,0,0,0,2,100.0,0.0,F:/Latur Data/Latur 2022 -2025 Polygons/2024 Polygons/MH-Latur-20260218051738.dbf|layername=MH-Latur-20260218051738 (300); F:/Latur Data/After 1st meet data/2024GT/2024GT.dbf|layername=2024GT (23)
+2025,OBJECTID,int64,769,0,0,0,0,0,0,769,100.0,1.0,min 1 | median 385 | max 769
+2025,UID,str,769,0,0,0,0,0,0,769,100.0,0.0,7163-8183-6550 (1); 7164-8185-6545 (1); 7165-8184-7241 (1); 7167-8188-6449 (1); 7169-8193-6451 (1)
+2025,Farm,str,769,0,0,0,0,0,0,642,100.0,0.01,(personal: values hidden)
+2025,Farmer,str,769,0,0,0,0,0,0,731,100.0,0.0,(personal: values hidden)
+2025,Phone,str,769,0,0,0,0,0,0,733,100.0,1.0,(personal: values hidden)
+2025,Survey_No,str,769,0,0,0,13,0,1,359,98.3,0.91,(personal: values hidden)
+2025,State,str,769,0,0,0,0,0,0,1,100.0,0.0,Maharashtra (769)
+2025,District,str,769,0,0,0,0,0,0,1,100.0,0.0,Latur (769)
+2025,Taluka,str,769,0,0,0,0,0,0,8,100.0,0.0,Latur (257); Nilanga (127); Ausa (122); Renapur (98); Chakur (95)
+2025,Village,str,769,0,0,0,0,0,0,84,100.0,0.0,Harwadi (74); Chincholi Ballalnath (53); Gaur (35); Shelu Bk. (34); Warwada (33)
+2025,SColor,str,769,0,0,0,0,0,0,5,100.0,0.0,Black (567); Deep Black (161); Brown (39); White (1); Red (1)
+2025,SStructure,str,769,0,0,0,0,0,0,4,100.0,0.0,Fine (371); Very Fine (310); Medium (86); Coarse (2)
+2025,STexture,str,769,0,0,0,0,0,0,5,100.0,0.0,Black Cotton Soil / Clay (326); Clay Loam (201); Slit (196); Loam (29); Sand (17)
+2025,SDepth,str,769,0,0,0,0,0,0,3,100.0,0.0,Medium (428); Deep (332); Shallow (9)
+2025,Carbon,float64,769,0,0,0,0,759,0,9,1.3,1.0,min 0.21 | median 0.49 | max 0.81
+2025,pH,float64,769,0,0,0,0,759,0,11,1.3,1.0,min 7.5 | median 7.83 | max 8.3
+2025,EC,float64,769,0,0,0,0,759,0,11,1.3,1.0,min 0.15 | median 0.325 | max 0.69
+2025,Nitrogen,float64,769,0,0,0,0,759,0,11,1.3,1.0,min 110 | median 222 | max 567
+2025,Phosphorus,float64,769,0,0,0,0,759,0,11,1.3,1.0,min 7.4 | median 12.7 | max 35.4
+2025,Potassium,float64,769,0,0,0,0,759,0,11,1.3,1.0,min 369 | median 580 | max 792
+2025,Crop_Name,str,769,0,0,0,0,0,0,1,100.0,0.0,Soyabean (769)
+2025,Irrigation,str,769,0,0,0,0,0,0,3,100.0,0.0,Flow/Protective (352); Rainfed (350); Drip (67)
+2025,A_Variety,str,769,0,0,0,0,0,0,24,100.0,0.0,KDS 753 (244); DS 228 (210); KDS 992 (100); MAUS 612 (77); JS 335 (61)
+2025,C_Yeild,str,769,0,0,0,0,0,1,104,100.0,1.0,min 0 | median 8 | max 24
+2025,HA_Date,str,769,0,0,0,0,0,0,78,100.0,0.0,10/10/2025 12:00:00 AM (43); 9/30/2025 12:00:00 AM (38); 10/2/2025 12:00:00 AM (36); 10/15/2025 12:00:00 AM (34); 11/10/2025 12:00:00 AM (33)
+2025,ASowing,str,769,0,0,0,0,0,0,47,100.0,0.0,18/06/2025 (215); 15/06/2025 (123); 20/06/2025 (77); 17/06/2025 (41); 16/06/2025 (38)
+2025,Area_acres,float64,769,0,0,0,0,0,0,769,100.0,1.0,min -2.29 | median 2.08 | max 7.37

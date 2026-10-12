@@ -1,0 +1,5 @@
+year,fields,duplicate_ids,identical_polygons,multi_part_fields,max_parts,broken_polygons,touching_pairs,overlap_0.1_to_0.5,overlap_0.5_to_0.9,overlap_above_0.9,farmers,farmers_with_2plus_fields,most_fields_one_farmer
+2022,55,0,0,0,0,0,0,0,0,0,51,4,2
+2023,60,0,0,4,3,0,0,0,0,0,59,1,2
+2024,323,0,0,2,5,0,10,1,0,0,292,28,3
+2025,769,0,0,0,0,2,28,9,4,4,733,31,4

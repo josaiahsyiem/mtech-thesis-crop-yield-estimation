@@ -1,0 +1,5 @@
+year,crs,shape_types,fields,columns,missing_polygon,empty_polygon
+2022,EPSG:4326,Polygon,55,46,0,0
+2023,EPSG:4326,"MultiPolygon, Polygon",60,46,0,0
+2024,EPSG:4326,"MultiPolygon, Polygon",323,46,0,0
+2025,EPSG:4326,Polygon,769,27,1,0
