@@ -1,0 +1,9 @@
+year,pair,only_first,only_second,both_equal,both_conflict,neither
+2022,Crop_Name / Crop Name,22,33,0,0,0
+2022,Survey_No / Survey No,22,33,0,0,0
+2023,Crop_Name / Crop Name,12,48,0,0,0
+2023,Survey_No / Survey No,12,48,0,0,0
+2024,Crop_Name / Crop Name,23,300,0,0,0
+2024,Survey_No / Survey No,23,270,0,0,30
+2025,Crop_Name / Crop Name,769,0,0,0,0
+2025,Survey_No / Survey No,756,0,0,0,13

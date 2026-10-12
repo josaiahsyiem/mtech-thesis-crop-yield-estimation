@@ -34,3 +34,8 @@ env/
 Thumbs.db
 **/catboost_info/
 
+data/processed_v2/
+data/boundaries/
+*.gpkg-shm
+*.gpkg-shm
+*.gpkg-wal

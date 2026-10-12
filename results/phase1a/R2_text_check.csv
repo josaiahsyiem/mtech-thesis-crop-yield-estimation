@@ -1,0 +1,9 @@
+column,unique,unique_after_cleanup,extra_spaces
+taluka,8,8,0
+village,112,112,0
+irrigation,3,3,0
+soil_color,5,5,0
+soil_structure,4,4,0
+soil_texture,5,5,0
+soil_depth,3,3,0
+crop,1,1,0
