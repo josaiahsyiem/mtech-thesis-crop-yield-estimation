@@ -1,0 +1,4 @@
+model,loss,R2,R2_sd,RMSE,mean_abs_error
+MLP (64-32-16),Squared error,0.063,0.048,2.92,1.95
+XGBoost,Absolute error,0.09,0.038,2.885,1.843
+XGBoost,Squared error,0.025,0.081,2.964,1.946

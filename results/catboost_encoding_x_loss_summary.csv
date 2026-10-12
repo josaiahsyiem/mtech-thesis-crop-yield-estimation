@@ -1,0 +1,9 @@
+encoding,loss,R2,R2_sd,RMSE,mean_abs_error
+Native,Squared error (normal),0.072,0.069,2.9,1.904
+Native,"Huber, delta = 1.5",-0.02,0.07,3.041,2.042
+Native,"Huber, delta = 3",-0.011,0.079,3.017,2.03
+Native,Absolute error,0.075,0.03,2.91,1.859
+One-hot,Squared error (normal),0.089,0.061,2.873,1.877
+One-hot,"Huber, delta = 1.5",0.05,0.05,2.932,1.926
+One-hot,"Huber, delta = 3",0.037,0.068,2.95,1.966
+One-hot,Absolute error,0.093,0.04,2.883,1.834

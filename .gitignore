@@ -1,0 +1,36 @@
+# data (too large / private for git)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# trained models
+models/*
+!models/.gitkeep
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# geospatial big files (safety net, never commit these)
+*.tif
+*.tiff
+*.img
+*.hdf
+*.he5
+*.SAFE/
+*.zip
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+**/catboost_info/
+
