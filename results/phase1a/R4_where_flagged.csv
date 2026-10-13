@@ -1,0 +1,4 @@
+group,fields,villages,villages_if_random,p_packed,top_villages,years
+soil_lab_fields,232,52,63,0.001,"Bhada (33), Bheta (19), Gondegaon (15)","{2022: 43, 2023: 60, 2024: 119, 2025: 10}"
+no_details_fields,34,12,19,0.001,"Babhalgaon (6), Pakharsangvi (5), Bhada (4)","{2022: 17, 2024: 17}"
+early_harvest_fields,91,34,44,0.002,"Bhada (21), Talegaon Bori (9), Taka (7)","{2022: 4, 2023: 9, 2024: 28, 2025: 50}"
