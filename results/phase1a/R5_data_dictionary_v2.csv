@@ -1,0 +1,52 @@
+column,meaning,unit,sensible range,source of the range
+uid,field ID from the survey,-,unique,R1: no duplicates
+year,kharif season,year,2022 to 2025,raw files
+batch,"survey batch (A, B, or 2025)",-,"A, B, 2025",R2 Step 1
+farmer_code,anonymous farmer code (sha1 of name and phone),-,-,R2; replaces personal data
+survey_code,anonymous code of village + land survey number,-,-,R2; replaces personal data
+taluka,taluka from the real boundary,-,10 talukas of Latur,"DataMeet village boundaries, Census 2001 (R3 Step 4)"
+taluka_recorded,taluka as written in the survey,-,-,raw files
+village,village name,-,112 villages,raw files; spelling checked in R2 Step 7
+irrigation,irrigation type,-,"Rainfed, Drip, Flow/Protective",raw files
+variety,standard variety name,-,11 released varieties or Unknown,matched by code number (R4 Step 3); ICAR and IISR variety lists
+crop_yield,yield as recorded,unit decided in Phase 1B (q/acre or q/ha),decided in Phase 1B,Phase 1B: official Latur yields and variety potential
+sowing_date,sowing date after the checks,date,1 June to 5 August,"Maharashtra sowing-date trials, Kathmale et al. (R4 Step 1)"
+harvest_date,harvest date after the day/month fix,date,within the 3 IQR fences of its year,"R4 Step 2 (chi-square, likelihood ratio)"
+crop_duration,harvest minus sowing,days,at least 91 days,"earliest listed maturity, MAUS 612 (ICAR oilseeds compendium)"
+area_acres,field area from the polygon (UTM 43N),acres,0.17 to 31.3 acres,3 IQR fences on log-area (R3 Step 2); checked against EPSG:6933
+area_actual_farmer,farmer-reported area,acres,within 20% of area_acres,R3 Step 3 (unit ratio test)
+soil_ph,soil pH (lab),-,"acidic < 6.5, neutral 6.5 to 7.0, alkaline > 7.0","Soil Health Card limits, ICAR-IISS"
+soil_carbon,organic carbon (lab),%,"low < 0.5, high > 0.75","Soil Health Card limits, ICAR-IISS"
+soil_n,available nitrogen (lab),kg/ha,"low < 280, high > 560","Soil Health Card limits, ICAR-IISS"
+soil_p,available phosphorus (lab),kg/ha,"low < 10, high > 25","Soil Health Card limits, ICAR-IISS"
+soil_k,available potassium (lab),kg/ha,"low < 120, high > 280","Soil Health Card limits, ICAR-IISS"
+soil_ec,electrical conductivity (lab),dS/m,saline > 4,"Soil Health Card limits, ICAR-IISS"
+overlap_group,fields drawn on the same land in one year,-,-,R3 Step 5 (share of smaller field > 10%)
+plot_id,same land in different years,-,-,"R3 Step 6 (share of smaller field > 0.5, sensitivity tested)"
+*_group,category with rare groups merged,-,at least 10 fields per group,Cochran (1954) rule (R4 Step 5)
+flag_geom_repaired,True/False check result,-,-,fixed in R3 (make_valid)
+flag_repair_changed_area,True/False check result,-,-,fixed in R3; flagged
+flag_no_polygon,True/False check result,-,-,"removed (no location, so no satellite data)"
+flag_slivers_removed,True/False check result,-,-,fixed in R3
+flag_split_field,True/False check result,-,-,kept (real split field)
+flag_tiny,True/False check result,-,-,none found
+flag_huge,True/False check result,-,-,none found
+flag_area_mismatch,True/False check result,-,-,kept; area comes from the polygon
+flag_provider_area_negative,True/False check result,-,-,kept; provider area not used
+flag_outside_district,True/False check result,-,-,kept (0.19 and 2.06 km outside: boundary precision)
+flag_taluka_mismatch,True/False check result,-,-,kept; taluka taken from the real boundary
+flag_overlap_same_year,True/False check result,-,-,"kept, flagged; overlap group keeps them together; yields checked in Phase 1B"
+flag_duplicate_record,True/False check result,-,-,one of each pair removed (same field entered twice)
+flag_repeated_plot,True/False check result,-,-,kept; tag used to group the folds (Phase 5)
+flag_sowing_year_fixed,True/False check result,-,-,fixed in R4
+flag_sowing_implausible,True/False check result,-,-,kept; sowing date left blank
+flag_sowing_missing,True/False check result,-,-,"kept, flagged; yields checked in Phase 1B"
+flag_sowing_unusual,True/False check result,-,-,"kept, flagged"
+flag_harvest_year_fixed,True/False check result,-,-,fixed in R4
+flag_harvest_swapped,True/False check result,-,-,fixed in R4
+flag_harvest_undecided,True/False check result,-,-,kept; harvest date left blank
+flag_duration_unusual,True/False check result,-,-,"kept, flagged"
+flag_harvest_before_maturity,True/False check result,-,-,"kept, flagged; yields checked in Phase 1B"
+flag_soil_zero_blanked,True/False check result,-,-,fixed in R4
+flag_variety_typo,True/False check result,-,-,fixed in R4
+flag_variety_unknown,True/False check result,-,-,kept; variety = Unknown

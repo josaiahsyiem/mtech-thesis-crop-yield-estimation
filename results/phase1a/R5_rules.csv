@@ -1,0 +1,27 @@
+flag,fields,of_these_removed,action
+flag_geom_repaired,2,0,fixed in R3 (make_valid)
+flag_repair_changed_area,1,0,fixed in R3; flagged
+flag_no_polygon,1,1,"removed (no location, so no satellite data)"
+flag_slivers_removed,6,0,fixed in R3
+flag_split_field,4,0,kept (real split field)
+flag_tiny,0,0,none found
+flag_huge,0,0,none found
+flag_area_mismatch,71,0,kept; area comes from the polygon
+flag_provider_area_negative,7,0,kept; provider area not used
+flag_outside_district,2,0,kept (0.19 and 2.06 km outside: boundary precision)
+flag_taluka_mismatch,46,0,kept; taluka taken from the real boundary
+flag_overlap_same_year,35,1,"kept, flagged; overlap group keeps them together; yields checked in Phase 1B"
+flag_duplicate_record,2,1,one of each pair removed (same field entered twice)
+flag_repeated_plot,160,0,kept; tag used to group the folds (Phase 5)
+flag_sowing_year_fixed,15,0,fixed in R4
+flag_sowing_implausible,5,0,kept; sowing date left blank
+flag_sowing_missing,34,0,"kept, flagged; yields checked in Phase 1B"
+flag_sowing_unusual,43,1,"kept, flagged"
+flag_harvest_year_fixed,3,0,fixed in R4
+flag_harvest_swapped,85,1,fixed in R4
+flag_harvest_undecided,22,0,kept; harvest date left blank
+flag_duration_unusual,6,0,"kept, flagged"
+flag_harvest_before_maturity,91,0,"kept, flagged; yields checked in Phase 1B"
+flag_soil_zero_blanked,5,0,fixed in R4
+flag_variety_typo,4,0,fixed in R4
+flag_variety_unknown,45,0,kept; variety = Unknown
