@@ -1,0 +1,5 @@
+year,fields,nearest_median_m,nearest_max_m,no_neighbour_500m,no_neighbour_1km,no_neighbour_2km,largest_distance_km
+2022,55,578,54902,35,21,7,74.9
+2023,58,835,8454,43,28,14,61.4
+2024,323,353,5727,114,49,17,75.1
+2025,766,256,8333,190,63,12,88.3

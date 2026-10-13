@@ -1,0 +1,13 @@
+year,version,n,moran_I,p
+2022,all fields,55,0.194,0.004
+2022,without strong outliers,54,0.171,0.004
+2022,ranks,55,0.234,0.003
+2023,all fields,58,0.023,0.203
+2023,without strong outliers,57,0.146,0.009
+2023,ranks,58,0.109,0.021
+2024,all fields,323,0.395,0.001
+2024,without strong outliers,309,0.377,0.001
+2024,ranks,323,0.419,0.001
+2025,all fields,766,0.093,0.001
+2025,without strong outliers,757,0.1,0.001
+2025,ranks,766,0.12,0.001
