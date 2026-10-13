@@ -1,0 +1,15 @@
+,fields,2022,2023,2024,2025
+flag_geom_repaired,2,0,0,0,2
+flag_repair_changed_area,1,0,0,0,1
+flag_no_polygon,1,0,0,0,1
+flag_slivers_removed,6,0,3,2,1
+flag_split_field,4,0,2,1,1
+flag_tiny,0,0,0,0,0
+flag_huge,0,0,0,0,0
+flag_area_mismatch,71,7,4,60,0
+flag_provider_area_negative,7,0,0,0,7
+flag_outside_district,2,0,0,2,0
+flag_taluka_mismatch,46,0,1,21,24
+flag_overlap_same_year,35,0,0,2,33
+flag_duplicate_record,2,0,0,0,2
+flag_repeated_plot,160,6,16,71,67

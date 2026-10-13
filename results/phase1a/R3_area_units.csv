@@ -1,0 +1,17 @@
+column,best_unit,within_20pct,fields
+area_acres_provider,acres,True,798
+area_acres_provider,acres,False,10
+area_acres_provider,hectares,False,9
+area_acres_provider,zero or negative,False,7
+area_acres_provider,hectares,True,1
+area_acres_provider,no value,False,1
+area_actual_farmer,acres,True,280
+area_actual_farmer,acres,False,65
+area_actual_farmer,hectares,False,4
+area_actual_farmer,guntha,False,2
+area_actual_farmer,hectares,True,2
+area_m2_provider (as acres),acres,True,375
+area_m2_provider (as acres),acres,False,6
+area_planned_farmer,acres,True,334
+area_planned_farmer,acres,False,45
+area_planned_farmer,hectares,False,2
