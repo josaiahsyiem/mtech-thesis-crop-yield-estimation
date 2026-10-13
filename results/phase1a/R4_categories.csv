@@ -1,0 +1,7 @@
+column,groups_before,rare (< 10 fields),groups_after,smallest_after
+irrigation,3,-,3,Drip (219)
+soil_color,5,"White (2), Red (1)",3,Brown or lighter (51)
+soil_structure,4,Coarse (6),3,Medium or coarse (111)
+soil_texture,5,-,5,Sand (28)
+soil_depth,3,-,3,Shallow (11)
+variety,12,"MAUS 71 (9), MAUS 162 (7), MAUS 158 (3)",10,AMS 1001 (12)

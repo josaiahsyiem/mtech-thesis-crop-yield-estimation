@@ -1,0 +1,75 @@
+raw,variety,how,fields
+AMS 1001,AMS 1001,exact code,11
+1001,AMS 1001,exact code,1
+DS 228,DS 228,exact code,221
+228,DS 228,exact code,46
+DS228,DS 228,exact code,18
+ds 228,DS 228,exact code,3
+Ds228,DS 228,exact code,2
+218,DS 228,one-digit typo,1
+डीएस २२८,DS 228,exact code,1
+ds228,DS 228,exact code,1
+Ds 228,DS 228,exact code,1
+JS 335,JS 335,exact code,61
+335,JS 335,exact code,32
+js 335,JS 335,exact code,2
+335oswal,JS 335,exact code,1
+335(mahabij),JS 335,exact code,1
+335 mahabij,JS 335,exact code,1
+js-335,JS 335,exact code,1
+KDS 725,KDS 725,exact code,18
+KDS 726,KDS 726,exact code,20
+726,KDS 726,exact code,18
+kds726,KDS 726,exact code,4
+KDS-726,KDS 726,exact code,3
+Kds-726,KDS 726,exact code,1
+726kds,KDS 726,exact code,1
+726KDS,KDS 726,exact code,1
+kds 726,KDS 726,exact code,1
+KDS 753,KDS 753,exact code,251
+753,KDS 753,exact code,90
+kds753,KDS 753,exact code,48
+kds 753,KDS 753,exact code,43
+KDS753,KDS 753,exact code,24
+Kds 753,KDS 753,exact code,3
+केडीएस ७५३,KDS 753,exact code,3
+Kds753,KDS 753,exact code,2
+754,KDS 753,one-digit typo,2
+KDS-753,KDS 753,exact code,1
+KSS753,KDS 753,exact code,1
+753 kds,KDS 753,exact code,1
+752,KDS 753,one-digit typo,1
+kda753,KDS 753,exact code,1
+KDS 992,KDS 992,exact code,100
+केडीएस ९९२,KDS 992,exact code,3
+992 किमया,KDS 992,exact code,1
+992,KDS 992,exact code,1
+kds 992,KDS 992,exact code,1
+MAUS 158,MAUS 158,exact code,2
+158 mahabij,MAUS 158,exact code,1
+MAUS 162,MAUS 162,exact code,6
+162,MAUS 162,exact code,1
+MAUS 612,MAUS 612,exact code,78
+612,MAUS 612,exact code,10
+maus 612,MAUS 612,exact code,3
+MAUS -612,MAUS 612,exact code,1
+एमएयुएस ६१२,MAUS 612,exact code,1
+Maus612,MAUS 612,exact code,1
+71,MAUS 71,exact code,3
+MAUS-71,MAUS 71,exact code,2
+KDS-71,MAUS 71,exact code,1
+maus-71,MAUS 71,exact code,1
+71 mahabij,MAUS 71,exact code,1
+MAUS 71,MAUS 71,exact code,1
+(blank),Unknown,missing,34
+3344,Unknown,no match,1
+kds500,Unknown,no match,1
+"KDS-726,DS-228",Unknown,two or more numbers,1
+late,Unknown,no number,1
+2,Unknown,no match,1
+1208,Unknown,no match,1
+663,Unknown,no match,1
+441,Unknown,no match,1
+162/  1188,Unknown,two or more numbers,1
+2.11,Unknown,two or more numbers,1
+1281,Unknown,no match,1

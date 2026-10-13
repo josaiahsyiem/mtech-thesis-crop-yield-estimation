@@ -1,0 +1,5 @@
+year,n,median,Q1,Q3,fence_low,fence_high,unusual
+2022,38,28 Jun,22 Jun,01 Jul,26 May,28 Jul,0
+2023,58,05 Jul,04 Jul,07 Jul,25 Jun,16 Jul,3
+2024,306,19 Jun,16 Jun,20 Jun,04 Jun,02 Jul,4
+2025,766,18 Jun,15 Jun,19 Jun,03 Jun,01 Jul,36

@@ -1,0 +1,13 @@
+,type,fields,2022,2023,2024,2025
+flag_sowing_year_fixed,fixed,15,0,0,3,12
+flag_sowing_implausible,problem,5,0,2,0,3
+flag_sowing_missing,problem,34,17,0,17,0
+flag_sowing_unusual,problem,43,0,3,4,36
+flag_harvest_year_fixed,fixed,3,1,0,2,0
+flag_harvest_swapped,fixed,85,0,0,6,79
+flag_harvest_undecided,problem,22,2,3,6,11
+flag_duration_unusual,problem,6,0,2,3,1
+flag_harvest_before_maturity,problem,91,4,9,28,50
+flag_variety_typo,fixed,4,1,0,3,0
+flag_variety_unknown,problem,45,20,7,18,0
+flag_soil_zero_blanked,fixed,5,5,0,0,0

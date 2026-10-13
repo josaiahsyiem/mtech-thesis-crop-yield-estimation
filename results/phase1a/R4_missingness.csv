@@ -1,0 +1,7 @@
+column,missing,missing_%,2022,2023,2024,2025,median_yield_missing,median_yield_present,p_all_years,years_tested,p_within_years,p_within_holm,yield_differs
+variety,45,3.7,20,7,18,0,9.0,8.085,0.1253,3,0.2597,1.0,False
+sowing_date,39,3.2,17,2,17,3,9.0,8.155,0.2674,2,0.3243,1.0,False
+harvest_date,22,1.8,2,3,6,11,8.0,8.22,0.8398,2,0.3353,1.0,False
+soil_description,233,19.3,29,0,204,0,9.0,8.0,0.0,2,0.8229,1.0,False
+soil_lab,975,80.8,12,0,204,759,8.0,9.0,0.0,3,0.5464,1.0,False
+farmer_area,28,2.3,12,0,16,0,9.0,8.19,0.152,2,0.5066,1.0,False
