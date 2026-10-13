@@ -1,0 +1,9 @@
+,fields,low_side,high_side,cut_off
+mean_3sd,11,0,11,-0.7 to 17.9
+iqr_1.5,40,15,25,2.5 to 14.5
+iqr_3,10,0,10,-2.0 to 19.0
+mod_z_3.5,27,2,25,|M| > 3.5 (MAD 1.30)
+grubbs,1,0,1,"most extreme, alpha 0.05"
+rosner_k20,11,0,11,"up to 20, alpha 0.05"
+per_group_mod_z,18,3,15,|M| > 3.5 per year x variety
+above_potential,61,0,61,> 12.2 q/acre

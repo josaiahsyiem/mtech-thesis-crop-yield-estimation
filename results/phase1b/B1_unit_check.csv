@@ -1,0 +1,5 @@
+year,fields,median_recorded,if_q_per_acre_kg_ha,if_q_per_ha_kg_ha,official_kg_ha,closer_to_official
+2022,55,9.0,2224,900,1100.0,q/ha
+2023,58,8.0,1977,800,1551.0,q/acre
+2024,323,9.5,2348,950,1998.0,q/acre
+2025,766,8.0,1977,800,,

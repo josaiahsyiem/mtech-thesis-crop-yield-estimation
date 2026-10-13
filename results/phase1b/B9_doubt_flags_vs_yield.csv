@@ -1,0 +1,10 @@
+flag,fields,median_flagged,median_rest,years_tested,p_within_years,p_holm,yield_differs
+harvest_before_maturity,90,7.6,8.3,3,3.523373911251222e-05,0.00031710365201261,True
+sowing_missing,34,9.0,8.085,2,0.32434125520050333,1.0,False
+sowing_unusual,42,7.75,8.3,1,0.011108947442038145,0.08887157953630516,False
+overlap_same_year,34,8.0,8.235,1,0.6843809917942301,1.0,False
+harvest_undecided,22,8.0,8.2,2,0.33482858848004204,1.0,False
+variety_unknown,45,9.0,8.0,3,0.2014143703129952,1.0,False
+area_mismatch,71,9.0,8.0,2,0.4488111878432267,1.0,False
+taluka_mismatch,46,8.525,8.195,2,0.8574459582821518,1.0,False
+repeated_plot,160,8.5,8.0,4,0.8377322633755697,1.0,False
