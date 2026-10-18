@@ -1,0 +1,445 @@
+feature,group,source,missing_%
+year,ground,field survey,0.0
+ground_variety,ground,field survey,0.0
+ground_irrigation,ground,field survey,0.0
+ground_soil_color_group,ground,field survey,19.4
+ground_soil_texture_group,ground,field survey,19.4
+ground_soil_depth_group,ground,field survey,19.4
+ground_soil_structure_group,ground,field survey,19.4
+ground_sowing_doy,ground,field survey,3.2
+ground_crop_duration,ground,field survey,5.1
+ground_area_acres,ground,field survey,0.0
+ground_has_soil_lab,ground,field survey,0.0
+s2_nclear_06,s2_quality,Sentinel-2 SR + Cloud Score+,11.8
+s2_valid_06,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_06_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,15.5
+s2_NDVI_06_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_NDVI_06_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_NDVI_06_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_EVI_06_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,15.5
+s2_EVI_06_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_EVI_06_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_EVI_06_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_GCVI_06_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,15.5
+s2_GCVI_06_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_GCVI_06_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_GCVI_06_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_LSWI_06_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,15.5
+s2_LSWI_06_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_LSWI_06_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_LSWI_06_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_NDRE_06_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,15.5
+s2_NDRE_06_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_NDRE_06_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_NDRE_06_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_NIRv_06_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,15.5
+s2_NIRv_06_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_NIRv_06_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_NIRv_06_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_RECI_06_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,15.5
+s2_RECI_06_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_RECI_06_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_RECI_06_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,15.5
+s2_nclear_07,s2_quality,Sentinel-2 SR + Cloud Score+,46.5
+s2_valid_07,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_07_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,53.6
+s2_NDVI_07_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_NDVI_07_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_NDVI_07_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_EVI_07_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,53.6
+s2_EVI_07_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_EVI_07_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_EVI_07_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_GCVI_07_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,53.6
+s2_GCVI_07_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_GCVI_07_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_GCVI_07_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_LSWI_07_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,53.6
+s2_LSWI_07_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_LSWI_07_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_LSWI_07_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_NDRE_07_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,53.6
+s2_NDRE_07_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_NDRE_07_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_NDRE_07_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_NIRv_07_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,53.6
+s2_NIRv_07_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_NIRv_07_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_NIRv_07_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_RECI_07_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,53.6
+s2_RECI_07_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_RECI_07_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_RECI_07_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,53.6
+s2_nclear_08,s2_quality,Sentinel-2 SR + Cloud Score+,31.6
+s2_valid_08,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_08_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,38.0
+s2_NDVI_08_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_NDVI_08_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_NDVI_08_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_EVI_08_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,38.0
+s2_EVI_08_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_EVI_08_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_EVI_08_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_GCVI_08_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,38.0
+s2_GCVI_08_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_GCVI_08_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_GCVI_08_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_LSWI_08_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,38.0
+s2_LSWI_08_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_LSWI_08_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_LSWI_08_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_NDRE_08_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,38.0
+s2_NDRE_08_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_NDRE_08_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_NDRE_08_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_NIRv_08_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,38.0
+s2_NIRv_08_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_NIRv_08_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_NIRv_08_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_RECI_08_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,38.0
+s2_RECI_08_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_RECI_08_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_RECI_08_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,38.0
+s2_nclear_09,s2_quality,Sentinel-2 SR + Cloud Score+,1.7
+s2_valid_09,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_09_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,2.6
+s2_NDVI_09_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_NDVI_09_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_NDVI_09_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+glcm_NDVI_09_contrast,glcm_s2,Sentinel-2 NDVI,23.4
+glcm_NDVI_09_homogeneity,glcm_s2,Sentinel-2 NDVI,23.4
+glcm_NDVI_09_entropy,glcm_s2,Sentinel-2 NDVI,23.4
+glcm_NDVI_09_correlation,glcm_s2,Sentinel-2 NDVI,24.5
+nbr_NDVI_09_diff,neighbourhood,"Sentinel-1 / Sentinel-2, 30 m ring",2.6
+s2_EVI_09_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,2.6
+s2_EVI_09_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_EVI_09_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_EVI_09_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_GCVI_09_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,2.6
+s2_GCVI_09_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_GCVI_09_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_GCVI_09_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_LSWI_09_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,2.6
+s2_LSWI_09_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_LSWI_09_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_LSWI_09_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_NDRE_09_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,2.6
+s2_NDRE_09_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_NDRE_09_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_NDRE_09_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_NIRv_09_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,2.6
+s2_NIRv_09_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_NIRv_09_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_NIRv_09_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_RECI_09_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,2.6
+s2_RECI_09_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_RECI_09_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_RECI_09_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,2.6
+s2_nclear_10,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_valid_10,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_10_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_10_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_10_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_10_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_EVI_10_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_EVI_10_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_EVI_10_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_EVI_10_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_GCVI_10_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_GCVI_10_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_GCVI_10_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_GCVI_10_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_10_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_10_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_10_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_10_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_10_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_10_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_10_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_10_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NIRv_10_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_NIRv_10_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NIRv_10_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NIRv_10_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_RECI_10_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_RECI_10_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_RECI_10_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_RECI_10_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_nclear_11,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_valid_11,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_11_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_11_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_11_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_11_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_EVI_11_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_EVI_11_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_EVI_11_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_EVI_11_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_GCVI_11_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_GCVI_11_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_GCVI_11_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_GCVI_11_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_11_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_11_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_11_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_11_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_11_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_11_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_11_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_11_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NIRv_11_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_NIRv_11_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NIRv_11_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_NIRv_11_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_RECI_11_mean,s2_month_mean,Sentinel-2 SR + Cloud Score+,0.0
+s2_RECI_11_sd,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_RECI_11_p10,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s2_RECI_11_p90,s2_month_spread,Sentinel-2 SR + Cloud Score+,0.0
+s1_nimg_06,s1_quality,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_06_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_06_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_06_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_06_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_06_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_06_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_06_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_06_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_06_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_06_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_06_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_06_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_06_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_06_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_06_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_06_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_nimg_07,s1_quality,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_07_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_07_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_07_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_07_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_07_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_07_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_07_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_07_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+glcm_VH_07_contrast,glcm_s1,Sentinel-1 VH,20.5
+glcm_VH_07_homogeneity,glcm_s1,Sentinel-1 VH,20.5
+glcm_VH_07_entropy,glcm_s1,Sentinel-1 VH,20.5
+glcm_VH_07_correlation,glcm_s1,Sentinel-1 VH,20.6
+s1_VH_VV_07_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_07_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_07_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_07_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_07_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_07_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_07_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_07_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_nimg_08,s1_quality,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_08_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_08_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_08_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_08_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_08_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_08_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_08_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_08_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+glcm_VH_08_contrast,glcm_s1,Sentinel-1 VH,20.5
+glcm_VH_08_homogeneity,glcm_s1,Sentinel-1 VH,20.5
+glcm_VH_08_entropy,glcm_s1,Sentinel-1 VH,20.5
+glcm_VH_08_correlation,glcm_s1,Sentinel-1 VH,20.7
+nbr_VH_08_diff,neighbourhood,"Sentinel-1 / Sentinel-2, 30 m ring",0.0
+s1_VH_VV_08_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_08_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_08_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_08_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_08_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_08_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_08_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_08_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_nimg_09,s1_quality,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_09_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_09_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_09_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_09_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_09_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_09_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_09_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_09_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+glcm_VH_09_contrast,glcm_s1,Sentinel-1 VH,20.5
+glcm_VH_09_homogeneity,glcm_s1,Sentinel-1 VH,20.5
+glcm_VH_09_entropy,glcm_s1,Sentinel-1 VH,20.5
+glcm_VH_09_correlation,glcm_s1,Sentinel-1 VH,21.0
+nbr_VH_09_diff,neighbourhood,"Sentinel-1 / Sentinel-2, 30 m ring",0.0
+s1_VH_VV_09_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_09_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_09_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_09_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_09_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_09_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_09_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_09_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_nimg_10,s1_quality,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_10_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_10_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_10_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_10_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_10_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_10_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_10_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_10_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_10_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_10_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_10_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_10_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_10_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_10_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_10_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_10_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_nimg_11,s1_quality,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_11_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_11_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_11_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_11_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_11_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_11_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_11_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_11_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_11_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_11_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_11_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_11_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_11_mean,s1_month_mean,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_11_sd,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_11_p10,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_RVI_11_p90,s1_month_spread,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s2_NDVI_peak,s2_season,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_peakmonth,s2_season,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_winmean,s2_season,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_nmonths,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_peak,s2_season,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_peakmonth,s2_season,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_winmean,s2_season,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDRE_nmonths,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_peak,s2_season,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_peakmonth,s2_season,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_winmean,s2_season,Sentinel-2 SR + Cloud Score+,0.0
+s2_LSWI_nmonths,s2_quality,Sentinel-2 SR + Cloud Score+,0.0
+s2_NDVI_gain,s2_season,Sentinel-2 SR + Cloud Score+,15.5
+s2_nclear_win,s2_quality,Sentinel-2 SR + Cloud Score+,66.1
+s1_VV_max,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_winmean,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_peakmonth,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_gain,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VV_drop,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_max,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_winmean,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_peakmonth,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_gain,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_drop,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_max,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_winmean,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_peakmonth,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_gain,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+s1_VH_VV_drop,s1_season,"Sentinel-1 GRD, orbit 63, leesigma",0.0
+era5_T_06,weather_month,ERA5-Land,0.0
+era5_TMAX_06,weather_month,ERA5-Land,0.0
+era5_VPD_06,weather_month,ERA5-Land,0.0
+era5_PRECIP_06,era5_rain,ERA5-Land,0.0
+era5_AET_06,weather_month,ERA5-Land,0.0
+era5_PET_06,weather_month,ERA5-Land,0.0
+era5_SM_06,weather_month,ERA5-Land,0.0
+era5_T_07,weather_month,ERA5-Land,0.0
+era5_TMAX_07,weather_month,ERA5-Land,0.0
+era5_VPD_07,weather_month,ERA5-Land,0.0
+era5_PRECIP_07,era5_rain,ERA5-Land,0.0
+era5_AET_07,weather_month,ERA5-Land,0.0
+era5_PET_07,weather_month,ERA5-Land,0.0
+era5_SM_07,weather_month,ERA5-Land,0.0
+era5_T_08,weather_month,ERA5-Land,0.0
+era5_TMAX_08,weather_month,ERA5-Land,0.0
+era5_VPD_08,weather_month,ERA5-Land,0.0
+era5_PRECIP_08,era5_rain,ERA5-Land,0.0
+era5_AET_08,weather_month,ERA5-Land,0.0
+era5_PET_08,weather_month,ERA5-Land,0.0
+era5_SM_08,weather_month,ERA5-Land,0.0
+era5_T_09,weather_month,ERA5-Land,0.0
+era5_TMAX_09,weather_month,ERA5-Land,0.0
+era5_VPD_09,weather_month,ERA5-Land,0.0
+era5_PRECIP_09,era5_rain,ERA5-Land,0.0
+era5_AET_09,weather_month,ERA5-Land,0.0
+era5_PET_09,weather_month,ERA5-Land,0.0
+era5_SM_09,weather_month,ERA5-Land,0.0
+era5_T_10,weather_month,ERA5-Land,0.0
+era5_TMAX_10,weather_month,ERA5-Land,0.0
+era5_VPD_10,weather_month,ERA5-Land,0.0
+era5_PRECIP_10,era5_rain,ERA5-Land,0.0
+era5_AET_10,weather_month,ERA5-Land,0.0
+era5_PET_10,weather_month,ERA5-Land,0.0
+era5_SM_10,weather_month,ERA5-Land,0.0
+era5_T_11,weather_month,ERA5-Land,0.0
+era5_TMAX_11,weather_month,ERA5-Land,0.0
+era5_VPD_11,weather_month,ERA5-Land,0.0
+era5_PRECIP_11,era5_rain,ERA5-Land,0.0
+era5_AET_11,weather_month,ERA5-Land,0.0
+era5_PET_11,weather_month,ERA5-Land,0.0
+era5_SM_11,weather_month,ERA5-Land,0.0
+chirps_RAIN_06,rain_month,CHIRPS v2.0,0.0
+chirps_RAIN_07,rain_month,CHIRPS v2.0,0.0
+chirps_RAIN_08,rain_month,CHIRPS v2.0,0.0
+chirps_RAIN_09,rain_month,CHIRPS v2.0,0.0
+chirps_RAIN_10,rain_month,CHIRPS v2.0,0.0
+chirps_RAIN_11,rain_month,CHIRPS v2.0,0.0
+chirps_RAIN_season,rain_month,CHIRPS v2.0,0.0
+modis_LAI_06,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_FPAR_06,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_GPP_06,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_PSNNET_06,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_LAI_07,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_FPAR_07,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_GPP_07,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_PSNNET_07,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_LAI_08,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_FPAR_08,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_GPP_08,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_PSNNET_08,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_LAI_09,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_FPAR_09,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_GPP_09,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_PSNNET_09,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_LAI_10,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_FPAR_10,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_GPP_10,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_PSNNET_10,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_LAI_11,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_FPAR_11,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_GPP_11,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+modis_PSNNET_11,modis,MODIS MOD15A2H / MOD17A2HGF,0.7
+terrain_ELEV,terrain,SRTM + MERIT Hydro,0.0
+terrain_SLOPE,terrain,SRTM + MERIT Hydro,0.0
+terrain_TWI,terrain,SRTM + MERIT Hydro,0.0
+terrain_northness,terrain,SRTM + MERIT Hydro,0.0
+terrain_eastness,terrain,SRTM + MERIT Hydro,0.0
+soil_clay,soil,SoilGrids 2.0,0.6
+soil_sand,soil,SoilGrids 2.0,0.6
+soil_soc,soil,SoilGrids 2.0,0.7
+soil_phh2o,soil,SoilGrids 2.0,0.6
+stage_RAIN_veg,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_AET_veg,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_PET_veg,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_T_veg,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_TMAX_veg,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_VPD_veg,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_SM_veg,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_RAIN_flower,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_AET_flower,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_PET_flower,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_T_flower,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_TMAX_flower,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_VPD_flower,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_SM_flower,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_RAIN_fill,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_AET_fill,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_PET_fill,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_T_fill,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_TMAX_fill,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_VPD_fill,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
+stage_SM_fill,weather_stage,ERA5-Land / CHIRPS + sowing date,3.2
