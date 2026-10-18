@@ -37,12 +37,15 @@ def fold_columns(folds, scheme):
     return [c for c in folds.columns if c == scheme or c.startswith(scheme + "_s")]
 
 
-def evaluate(make_model, X, y, folds, schemes=SCHEMES, min_test=10, fit_kwargs=None):
+def evaluate(make_model, X, y, folds, schemes=SCHEMES, min_test=10, fit_kwargs=None, xy=None, buffer_m=0):
     """make_model(): returns a new unfitted model with fit/predict.
     X: DataFrame of features (index = uid), y: Series (index = uid), folds: DataFrame (index = uid).
+    xy, buffer_m (Phase 6b): if buffer_m > 0, training fields closer than buffer_m metres to any test field
+    are left out of training (spatial buffer, Roberts et al. 2017). xy: DataFrame with columns x, y (index = uid).
     Returns (per_fold table, summary table, out-of-fold predictions)."""
     fit_kwargs = fit_kwargs or {}
     rows, preds = [], []
+    P = xy.loc[X.index, ["x", "y"]].to_numpy() if buffer_m else None
     for scheme in schemes:
         for col in fold_columns(folds, scheme):
             f = folds.loc[X.index, col]
@@ -50,16 +53,21 @@ def evaluate(make_model, X, y, folds, schemes=SCHEMES, min_test=10, fit_kwargs=N
                 test = (f == k).values
                 if test.sum() < min_test:            # too few test fields (e.g. Deoni, 2 fields): train only
                     continue
+                train = ~test
+                if buffer_m:
+                    from scipy.spatial import cKDTree
+                    d, _ = cKDTree(P[test]).query(P[train]); keep = np.where(train)[0][d > buffer_m]
+                    train = np.zeros(len(test), bool); train[keep] = True
                 m = make_model()
-                m.fit(X[~test], y[~test], **fit_kwargs)
+                m.fit(X[train], y[train], **fit_kwargs)
                 p = np.asarray(m.predict(X[test]), float).ravel()
-                rows.append({"scheme": scheme, "repeat": col, "fold": k, **metrics(y[test], p)})
+                rows.append({"scheme": scheme, "repeat": col, "fold": k, "n_train": int(train.sum()), **metrics(y[test], p)})
                 preds.append(pd.DataFrame({"uid": X.index[test], "scheme": scheme, "repeat": col, "fold": k,
                                            "y": y[test].values, "pred": p}))
     per_fold = pd.DataFrame(rows); oof = pd.concat(preds, ignore_index=True)
     summ = []
     for scheme, g in per_fold.groupby("scheme", sort=False):
-        mean, sd = g.drop(columns=["scheme", "repeat", "fold", "n"]).mean(), g.drop(columns=["scheme", "repeat", "fold", "n"]).std()
+        mean, sd = g.drop(columns=["scheme", "repeat", "fold", "n", "n_train"], errors="ignore").mean(), g.drop(columns=["scheme", "repeat", "fold", "n", "n_train"], errors="ignore").std()
         pooled = pd.DataFrame([metrics(o["y"], o["pred"]) for _, o in oof[oof["scheme"] == scheme].groupby("repeat")]).mean()
         row = {"scheme": scheme, "folds": len(g)}
         for k in ["r", "R2", "RMSE_q_acre", "MAE_q_acre", "NRMSE_pct", "bias_q_acre", "rho", "MAE_low10_q_acre", "MAE_high10_q_acre"]:

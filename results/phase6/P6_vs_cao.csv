@@ -1,0 +1,4 @@
+test,Cao et al. (2026) r,our split,ours r (mean over folds),ground only r
+random,0.9,random 5-fold,0.5907636170250002,0.3930025177201829
+new region,0.52,leave one taluka out,0.3993490339661146,0.35051141838953487
+new season,0.86,leave one year out,0.11837725229751447,0.09835980420935186
