@@ -39,3 +39,5 @@ data/boundaries/
 *.gpkg-shm
 *.gpkg-shm
 *.gpkg-wal
+
+data/raster/
